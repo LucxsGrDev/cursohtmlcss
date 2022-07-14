@@ -1,0 +1,31 @@
+<html>
+    <head>
+        Ejercicio de Introducción a HTML en OpenBotcamp
+    </head>
+    <body>
+        <!--Este es mi primer comentario de dos líneas
+        Aprendiendo a documentar mi código con OpenBootcamp-->
+        <div>
+            <ul>
+                <li>
+                    <a
+                        href="https://www.youtube.com/watch?v=zLqeGiTJLKg&ab_channel=zzZ"
+                        >https://www.youtube.com/watch?v=zLqeGiTJLKg&ab_channel=zzZ</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://www.youtube.com/watch?v=jH6pCB61Bzk&ab_channel=M.D.L.R"
+                        >https://www.youtube.com/watch?v=jH6pCB61Bzk&ab_channel=M.D.L.R</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://www.youtube.com/watch?v=tbfsHnYROMA&ab_channel=EladioCarrion"
+                        >https://www.youtube.com/watch?v=tbfsHnYROMA&ab_channel=EladioCarrion</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
