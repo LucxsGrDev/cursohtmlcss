@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Ejercicio 1 Multimedia OpenBootcamp</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ganando precisión con los selectores en CSS</title>
     </head>
+    <link rel="stylesheet" href="ejercicio1estilos.css" />
     <body>
-        <h1>Aprendiendo a utilizar imágenes</h1>
-        <img src="https://images5.alphacoders.com/121/1219390.jpg" alt="Fondo de Pantalla Elden Ring" width="2048" height="1152" />
-
-        <h1>Aprendiendo a utilizar vídeos</h1>
-        <video controls autoplay loop muted>
-            <source src="@LMDShow @Champi_14.mp4" >
-        </video>
-        
-        <h1>Aprendiendo a utilizar audios</h1>
-        <audio controls loop autoplay>
-            <source src="tumadretiene.mp3" type="audio/mp3">
-        </audio>
-
+        <h3 id="titulo" class="encabezado">Lista de la compra</h3>
+        <div>
+            <ul>
+                <li id="elemento-1" style="font-size: 2rem;">Pan</li>
+                <li id="elemento-2">Harina</li>
+                <li id="elemento-3">Agua</li>
+                <li id="elemento-4">Lechuga</li>
+                <li id="elemento-5">Alioli</li>
+            </ul>
+        </div>
+        <div>
+            <ol>
+                <li id="elemento-1">Lidl</li>
+                <li id="elemento-2">Aldi</li>
+                <li id="elemento-3">Mercadona</li>
+                <li id="elemento-4">Carrefour</li>
+                <li id="elemento-5">Alcampo</li>
+            </ol>
+        </div>
     </body>
 </html>
